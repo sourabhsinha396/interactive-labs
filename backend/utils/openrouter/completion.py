@@ -4,8 +4,8 @@ import time
 import random
 from dotenv import load_dotenv
 
-from .constants import constants, LLMModels
-from .router import openrouter_client
+from utils.constants import constants, LLMModels
+from utils.openrouter.router import openrouter_client
 
 load_dotenv()
 

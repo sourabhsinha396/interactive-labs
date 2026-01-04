@@ -1,11 +1,11 @@
 from fastapi import FastAPI, Request, Response
 from core.config import settings
-from utils.completion import text_completion_with_tracing
+from utils.openrouter.completion import text_completion_with_tracing
 from schemas.completion import CompletionRequest
 from utils.rate_limiter import limiter
 from utils.constants import constants
 from schemas.mailer import EmailRequest
-from utils.mailer import send_email
+from utils.third_party.mailer import send_email
 from utils.admin_auth import AdminAuth
 from admin.user import UserAdmin
 from sqladmin import Admin
