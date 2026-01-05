@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 import { Skeleton } from "@/components/ui/skeleton"
+import { Separator } from "@radix-ui/react-dropdown-menu"
 
 const navLinks = [
   { href: "/code-execution", label: "Code Execution" },
@@ -272,6 +273,7 @@ export function Navbar() {
           </div>
         )}
       </nav>
+      <Separator className="border-b-2 border-teal-500"/>
     </header>
   )
 }
