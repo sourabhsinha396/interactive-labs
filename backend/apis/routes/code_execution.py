@@ -8,7 +8,7 @@ from utils.code_execution.code_executer import CodeExecutor, CodeExecutionError
 from utils.rate_limiter import limiter
 from utils.constants import constants
 
-router = APIRouter(prefix="/code", tags=["Code Execution"])
+router = APIRouter(tags=["Code Execution"])
 
 try:
     executor = CodeExecutor()

@@ -10,6 +10,10 @@ from typing import Dict, Any, Optional
 from utils.code_execution.language_config import get_language_config, get_supported_languages
 
 
+class CodeExecutionError(Exception):
+    pass
+
+
 class CodeExecutor:
     """Handles code execution in Docker containers."""
     

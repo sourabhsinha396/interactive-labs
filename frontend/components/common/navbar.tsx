@@ -18,7 +18,7 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 import { Skeleton } from "@/components/ui/skeleton"
 
 const navLinks = [
-  { href: "/labs", label: "Labs" },
+  { href: "/code-execution", label: "Code Execution" },
   { href: "/topics", label: "Topics" },
   { href: "/pricing", label: "Pricing" },
   { href: "/docs", label: "Docs" },
